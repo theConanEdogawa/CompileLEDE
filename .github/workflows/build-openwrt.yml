@@ -79,12 +79,9 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
-    - name: Update feeds
-      run: cd openwrt && ./scripts/feeds update -a
-
-    - name: Install feeds
+    - name: Update and install feeds
       run: |
-        cd openwrt && ./scripts/feeds install -a
+        cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install -a
         echo "======================="
         echo "Space usage:"
         echo "======================="
