@@ -1,3 +1,9 @@
+# This repository statement
+
+1. This is a compilation and temporary storage place for the ASUS RT-ACRH17 compiled firmware with the OpenWrt core source code modified by Lean.
+2. The GitHub Actions runtime script for this repository is forked from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) and has been modified by me.
+3. If you wish to use any of the files generated or stored by this repository, you do so at your own risk, thank you for your understanding!
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
