@@ -18,6 +18,6 @@
 
 ########################################
 sed -i 's?cache-min-ttl=3600?cache-min-ttl=60?' package/lean/luci-app-turboacc/root/etc/init.d/turboacc;
-sed -i 's?tls://9.9.9.9?tls://223.5.5.5?' package/lean/luci-app-turboacc/root/etc/init.d/turboacc;
+sed -i 's?tls://9.9.9.9?tls://223.5.5.5 -b tls://223.6.6.6?' package/lean/luci-app-turboacc/root/etc/init.d/turboacc;
 sed -i 's?tls://8.8.8.8?tls://162.14.21.178?' package/lean/luci-app-turboacc/root/etc/init.d/turboacc;
 sed -i 's?"tls://162.14.21.178"?& -f "tls://223.5.5.5" -f "tls://223.6.6.6"?' package/lean/luci-app-turboacc/root/etc/init.d/turboacc
